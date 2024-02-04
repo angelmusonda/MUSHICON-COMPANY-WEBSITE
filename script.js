@@ -9,7 +9,7 @@ function openMoreAboutFeasibility() {
 
 function openHome() {
     // Specify the relative or absolute URL of the target page
-    var targetPageURL = 'home.html';
+    var targetPageURL = 'index.html';
 
     // Navigate to the target page
     window.location.href = targetPageURL;
