@@ -43,7 +43,8 @@ header img {
     max-width: 100%; /* Ensure the image doesn't exceed its natural size */
     min-width: 80%;
     height: auto; /* Maintain the image's aspect ratio */
-    
+
+
 }
 
 body {
