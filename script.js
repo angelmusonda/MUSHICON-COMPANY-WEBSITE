@@ -31,3 +31,22 @@ function openHome() {
 }
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    // Wait for the DOM to be fully loaded
+    setBodyPadding();
+
+    // Listen for window resize events
+    window.addEventListener("resize", setBodyPadding);
+});
+
+function setBodyPadding() {
+    // Get the height of the header image
+    var headerImage = document.querySelector('header img');
+    var headerImageHeight = headerImage.offsetHeight;
+
+    // Set the body padding based on the header image height
+    document.body.style.paddingTop = headerImageHeight + 'px';
+}
+
+
+
