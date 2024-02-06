@@ -56,8 +56,7 @@ body p{
 body .img-seismic-map {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    justify-content: center; /* Center horizontally */
-    margin: auto; /* Center the entire grid container horizontally */
+    justify-content: center; /* Center horizontally */  
 }
 
 
@@ -67,6 +66,7 @@ body .img {
     max-width: 100%; /* Ensure the image doesn't exceed its natural size */
    
     height: auto; /* Maintain the image's aspect ratio */
+    
     margin-left: auto;
     margin-right: auto;
     display: block;
