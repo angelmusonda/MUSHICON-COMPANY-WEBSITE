@@ -50,8 +50,39 @@ body {
 body p{
    padding-left: 40px;
    padding-right: 40px;
+  
 }
 
+body .img-seismic-map{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 20px;
+    
+}
+
+body .img {
+  
+    width: 60%; /* Make the image take up 100% of its container's width */
+    max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+    min-width: 60%;
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+body .article-img {
+  
+    width: 50%; /* Make the image take up 100% of its container's width */
+    max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+    min-width: 20%;
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
 
 h1, h2 {
     color: var(--header-text)
