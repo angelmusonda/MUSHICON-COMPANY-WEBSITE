@@ -64,7 +64,7 @@ body .img {
   
     width: 60%; /* Make the image take up 100% of its container's width */
     max-width: 100%; /* Ensure the image doesn't exceed its natural size */
-    min-width: 60%;
+   
     height: auto; /* Maintain the image's aspect ratio */
     margin-left: auto;
     margin-right: auto;
@@ -76,7 +76,7 @@ body .article-img {
   
     width: 50%; /* Make the image take up 100% of its container's width */
     max-width: 100%; /* Ensure the image doesn't exceed its natural size */
-    min-width: 20%;
+  
     height: auto; /* Maintain the image's aspect ratio */
     margin-left: auto;
     margin-right: auto;
