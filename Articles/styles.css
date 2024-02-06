@@ -57,10 +57,7 @@ body .img-seismic-map {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    text-align: center;
-    align-content: center;
-    margin: 0 auto; /* Center the entire grid container horizontally */
+    margin: auto; /* Center the entire grid container horizontally */
 }
 
 
