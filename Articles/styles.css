@@ -23,13 +23,7 @@
     align-items: center; /* Center items vertically */
 }
 
-.toolbar p {
-    color: var(--secondary-bg);
-    margin: 0; /* Remove default margin for paragraphs inside the toolbar */
-    padding:  0 10px; /* Add left margin between paragraphs */
-    font-size: var(--small-font);
 
-}
 
 
 header{
@@ -51,9 +45,12 @@ body {
    
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: var(--primary-bg);
-   
 }
 
+body p{
+   padding-left: 40px;
+   padding-right: 40px;
+}
 
 
 h1, h2 {
@@ -138,9 +135,6 @@ section h2 {
     
 }
 
-section p {
-    padding: 0;
-}
 
 section li {
     padding: 20px;
@@ -181,6 +175,7 @@ section li {
 
 .footer p{
     color: var(--header-text);
+    padding: 0px;
 }
 
 .footer h2{
