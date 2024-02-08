@@ -51,6 +51,7 @@ body {
    
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: var(--primary-bg);
+    padding-left: 20px;
    
 }
 
@@ -165,9 +166,10 @@ section li {
     color:'red';
 
     background-color:var(--header-bg-low);
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     align-items: center;
+   
 
     
 }
@@ -176,6 +178,7 @@ section li {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
+    padding-left: 0px;
 }
 
 
@@ -191,6 +194,7 @@ section li {
 .footer .copyright p{
     color: var(--header-text);
     font-size: var(--small-font);
+    padding-left: 0px;
 }
 
 
@@ -208,14 +212,14 @@ section li {
 
   /* GALLERY */
 
-  .container *,
-  .container *::before,
-  .container *::after {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
-  }
+.container *,
+.container *::before,
+.container *::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
 
 
 .container {
@@ -288,3 +292,5 @@ section li {
 .move-btn:first-child {border-right: none;}
 .move-btn.left  { cursor: w-resize; }
 .move-btn.right { cursor: e-resize; }
+
+
