@@ -47,11 +47,12 @@ header img {
 
 }
 
-body {
+.main-container {
    
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: var(--primary-bg);
-    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
    
 }
 
@@ -163,13 +164,14 @@ section li {
 .footer {
     text-align: center;
     color: var(--secondary-bg);
-    color:'red';
 
     background-color:var(--header-bg-low);
-    padding: 0px;
+    
     text-align: center;
     align-items: center;
-   
+    margin-left: 0;
+    margin-right: 0;
+    vertical-align: baseline;
 
     
 }
