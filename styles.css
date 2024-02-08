@@ -206,16 +206,16 @@ section li {
 
 
 
-  /* GALLERY*/
+  /* GALLERY */
 
-  *,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  box-sizing: border-box;
-}
+  .container *,
+  .container *::before,
+  .container *::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+  }
 
 
 .container {
