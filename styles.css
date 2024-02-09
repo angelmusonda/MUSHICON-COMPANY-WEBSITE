@@ -11,41 +11,113 @@
 
 }
 
-/* Style for the toolbar */
-.toolbar {
-    background-color:var(--header-bg);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    
-    display: flex; /* Use flexbox */
-    justify-content: flex-end; 
-    align-items: center; /* Center items vertically */
-}
-
-.toolbar p {
-    color: var(--secondary-bg);
-    margin: 0; /* Remove default margin for paragraphs inside the toolbar */
-    padding:  0 10px; /* Add left margin between paragraphs */
-    font-size: var(--small-font);
-
-}
 
 
-header{
-   position:fixed;
-   top: 0;
-   left: 0;
-}
+/* NAVIGATION */
+
+header {
+  background-color: var(--primary-bg);
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  font-family:monospace;
+  font-size: small;
+
+} 
 
 header img {
-    width: 100%; /* Make the image take up 100% of its container's width */
-    max-width: 100%; /* Ensure the image doesn't exceed its natural size */
-    min-width: 80%;
-    height: auto; /* Maintain the image's aspect ratio */
-
+  width: 80%; /* Make the image take up 100% of its container's width */
+  max-width: 80%; /* Ensure the image doesn't exceed its natural size */
+  min-width: 80%;
+  height: auto; /* Maintain the image's aspect ratio */
 
 }
+
+
+nav {
+  display: flex;
+  flex-direction: column; /* Updated to column layout */
+  align-items: center; /* Center items horizontally */
+}
+
+#logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+#menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  transition: width 3s ease-out
+}
+
+#menu li {
+  margin-right: 20px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: var(--header-text);
+  
+}
+
+#menu a:hover{
+  color:#262c5cb3;
+  
+}
+#menu a:active{
+  color: var(--header-bg);
+  
+}
+
+#menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#menu-icon:hover {
+  color:#262c5cb3;
+}
+
+#menu-icon:active {
+  color: var(--header-bg);
+}
+
+@media only screen and (max-width: 768px) {
+  #menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #6568707d;
+      transition: width 3s ease-out
+  }
+
+  #menu.show {
+      display: flex;
+  }
+
+  #menu li {
+      margin: 10px;
+      text-align: center;
+  }
+
+  #menu-icon {
+      display: block;
+      color: var(--header-text);
+  }
+
+  
+}
+
+/*NAVIGATION END*/
+
+
+
 
 .main-container {
    
@@ -172,6 +244,7 @@ section li {
     margin-left: 0;
     margin-right: 0;
     vertical-align: baseline;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     
 }
