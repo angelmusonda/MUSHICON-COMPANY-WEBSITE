@@ -1,36 +1,4 @@
-// NAVIGATION
-    document.getElementById('menu-icon').addEventListener('click', function() {
-        var menu = document.getElementById('menu');
-        menu.classList.toggle('show');
-    });
 
-    // Add click event listener to each menu item
-    var menuItems = document.querySelectorAll('#menu a');
-
-    menuItems.forEach(function(item) {
-        item.addEventListener('click', function(event) {
-            // Close the menu
-            var menu = document.getElementById('menu');
-            menu.classList.remove('show');
-
-            // Get the target section ID from the href attribute
-            var targetId = event.currentTarget.getAttribute('href').substring(1);
-
-            // Find the target section element
-            var targetSection = document.getElementById(targetId);
-
-            // Scroll to the corresponding section with smooth behavior
-            if (targetSection) {
-                targetSection.scrollIntoView({ behavior: 'smooth' });
-            }
-
-            // Prevent the default behavior of the anchor link (avoid immediate jump)
-            event.preventDefault();
-        });
-    });
-
-
-//NAVIGATION END
 function openMoreAboutFeasibility() {
     // Specify the relative or absolute URL of the target page
     var targetPageURL = 'feasibility.html';
