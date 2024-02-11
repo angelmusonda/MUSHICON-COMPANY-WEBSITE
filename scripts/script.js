@@ -31,37 +31,6 @@
 
 
 //NAVIGATION END
-function openMoreAboutFeasibility() {
-    // Specify the relative or absolute URL of the target page
-    var targetPageURL = 'feasibility.html';
-
-    // Navigate to the target page
-    window.location.href = targetPageURL;
-}
-
-function openMoreAboutDesign() {
-    // Specify the relative or absolute URL of the target page
-    var targetPageURL = 'design';
-
-    // Navigate to the target page
-    window.location.href = targetPageURL;
-}
-
-function openMoreAboutConstruction() {
-    // Specify the relative or absolute URL of the target page
-    var targetPageURL = 'construction.html';
-
-    // Navigate to the target page
-    window.location.href = targetPageURL;
-}
-function openHome() {
-    // Specify the relative or absolute URL of the target page
-    var targetPageURL = 'index.html';
-
-    // Navigate to the target page
-    window.location.href = targetPageURL;
-}
-
 
 document.addEventListener("DOMContentLoaded", function() {
     // Wait for the DOM to be fully loaded
@@ -183,17 +152,9 @@ rightBtn.addEventListener('mouseleave', stopMovement);
   
   var images = [
     'images/projects/img1.jpg',
-    'images/projects/img2.jpg',
-    'images/projects/img3.jpg',
-    'images/projects/img4.jpg',
-    'images/projects/img5.jpg',
-    'images/projects/img6.jpg',
     'images/projects/img7.jpg',
-    'images/projects/img8.jpg',
     'images/projects/img9.jpg',
     'images/projects/img10.jpg',
-    'images/projects/img11.jpg',
-    'images/projects/img12.jpg',
 
   ];
   
