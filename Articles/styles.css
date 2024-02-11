@@ -183,6 +183,17 @@ section li {
     
 }
 
+p a{
+    text-decoration: none;
+}
+
+p a:hover{
+    color:var(--secondary-bg);
+}
+
+p a:active{
+    color:var(--header-text);
+}
 
 #contact a:hover {
     text-decoration: underline;
