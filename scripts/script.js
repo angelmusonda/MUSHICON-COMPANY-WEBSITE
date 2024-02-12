@@ -155,8 +155,8 @@ rightBtn.addEventListener('mouseleave', stopMovement);
     'images/projects/img7.jpg',
     'images/projects/img9.jpg',
     'images/projects/img10.jpg',
-    'images/projects/img11.png',
-    'images/projects/img12.png',
+    'images/projects/img11.jpg',
+    'images/projects/img12.jpg',
 
   ];
   
